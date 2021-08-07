@@ -1,0 +1,138 @@
+body {
+    font-family: "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+    font-size: 16px;
+    margin: auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2px 2px 5px 5px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20vh;
+}
+
+
+form {
+    max-width: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    position: relative;
+}
+
+.form {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    width: 90%;
+}
+
+.login > p {
+    background-color: #e3e3e3;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+}
+
+.register > p {
+    background-color: #e3e3e3;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+}
+
+.form > input {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #e3e3e3;
+    display: block;
+    width: 90%;
+    padding: 10px 20px;
+    height: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.form > div {
+    display: block;
+    width: 90%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+button {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #5CB85C;
+    display: block;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #5CB85C;
+    border: none;
+}
+
+button:hover {
+    background-color: #00b400;
+    cursor: pointer;
+}
+
+.form > a {
+    display: block;
+    width: 90%;
+    margin-top: 15px;
+    overflow: hidden;
+    color: #337ac6;
+    text-decoration: none;
+}
+
+.register input {
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.register input:focus {
+    border: 1px solid #56b4ef;
+    box-shadow: 0px 0px 3px 1px #c8def0;
+}
+
+.login input {
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.login input:focus {
+    border: 1px solid #56b4ef;
+    box-shadow: 0px 0px 3px 1px #c8def0;
+}
+
+label.error {
+    font-size: 13px;
+    color: red;
+    font-style: italic;
+}
